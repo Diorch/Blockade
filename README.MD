@@ -1,8 +1,8 @@
-# 贪吃蛇游戏 (Snake Game)
+# Blockade 游戏
 
 ## 项目简介
 
-这是一个使用 Java8 开发的经典贪吃蛇游戏。游戏提供图形界面，让玩家可以通过键盘控制蛇的移动方向，吃到食物后蛇身会变长，撞到墙壁或自身则游戏结束。
+这是一个使用 Java8 开发的经典 Blockade 游戏。游戏提供图形界面，让玩家可以通过键盘控制蛇的移动方向，吃到食物后蛇身会变长，撞到墙壁或自身则游戏结束。
 
 ## 技术栈
 
@@ -49,7 +49,7 @@ test/
 1. 确保已安装 Java 8 和 Maven
 2. 克隆项目到本地
 3. 在项目根目录执行: `mvn clean install`
-4. 运行: `java -jar target/snake-game.jar`
+4. 运行: `java -jar target/blockade.jar`
 
 ## 游戏控制
 

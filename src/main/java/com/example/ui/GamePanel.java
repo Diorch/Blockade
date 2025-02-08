@@ -71,9 +71,9 @@ public class GamePanel extends JPanel {
      * @param g Graphics对象
      */
     private void drawGameOver(Graphics g) {
-        String gameOverText = "游戏结束!";
+        String gameOverText = "Game Over!";
         g.setColor(TEXT_COLOR);
-        g.setFont(new Font("微软雅黑", Font.BOLD, 30));
+        g.setFont(new Font("Arial", Font.BOLD, 30));
 
         FontMetrics metrics = g.getFontMetrics();
         int x = (getWidth() - metrics.stringWidth(gameOverText)) / 2;

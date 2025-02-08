@@ -27,7 +27,7 @@ public class GameFrame extends JFrame {
         gamePanel = new GamePanel(game);
 
         // 设置窗口属性
-        setTitle("贪吃蛇");
+        setTitle("Blockade");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         add(gamePanel);
